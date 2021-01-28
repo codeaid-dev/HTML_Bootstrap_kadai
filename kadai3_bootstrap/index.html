@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap制作課題3</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <header>
+        <h1>PHPまとめ</h1>
+      </header>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="main">
+            <h2>PHP機能概要</h2>
+            <section>
+              <h3>PHPの動作</h3>
+              <p class="article">PHPはWebサーバがクライアントへ返すレスポンスをプログラムが作成する役割のサーバサイドスクリプトである</p>
+            </section>
+            <section>
+              <h3>テキストと数の動作</h3>
+              <p class="article">文字列は単一引用符で囲む方法、二重引用符で囲む方法、ヒアドキュメントで記述する方法がある</p>
+              <p class="article">制御文字やプログラム予約文字を表示するにはエスケープが必要である</p>
+              <p class="article">文字列は連結ができ、数値は演算ができる</p>
+              <p class="article">変数を使って数値や文字列を格納し、演算や連結ができる</p>
+            </section>
+            <section>
+              <h3>判定と繰り返し</h3>
+              <p class="article">判定も繰り返しもテスト式で真偽値（trueまたはfalse）を評価する</p>
+              <p class="article">if() { ~ } else if() { ~ } else { ~ }、switch~case(), break, defaultを使って判定をする</p>
+              <p class="article">for () { ~ }、while () { ~ }、do { ~ } while ()を使って繰り返しをする</p>
+            </section>
+            <section>
+              <h3>配列の操作</h3>
+              <p class="article">配列は1つの変数に複数のデータをまとめて格納できる</p>
+              <p class="article">配列は格納場所に名前を付けることができる</p>
+              <p class="article">foreach()を使って配列のキーと要素を取り出しながら繰り返すことができる</p>
+            </section>
+            <section>
+              <h3>関数とファイル</h3>
+              <p class="article">関数は処理（アルゴリズム）をまとめて定義して呼び出すことができるようにしたものである</p>
+              <p class="article">関数は引数を持ち、値を返す</p>
+              <p class="article">関数の集まりを別のファイルにし呼び出すことができる</p>
+            </section>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="sidebar">
+            <h2><a href="https://www.php.net/manual/ja/">PHP公式サイト</a></h2>
+            <img src="img/kadai3.png">
+            <ul>
+              <li><a href="https://www.php.net/manual/ja/language.basic-syntax.php">基本的な構文</a></li>
+              <li><a href="https://www.php.net/manual/ja/language.types.php">型</a></li>
+              <li><a href="https://www.php.net/manual/ja/language.variables.php">変数</a></li>
+              <li><a href="https://www.php.net/manual/ja/language.expressions.php">式</a>、<a href="https://www.php.net/manual/ja/language.operators.php">演算子</a></li>
+              <li><a href="https://www.php.net/manual/ja/language.control-structures.php">制御構文</a></li>
+              <li><a href="https://www.php.net/manual/ja/language.functions.php">関数</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>&copy; Bootstrap制作課題3</footer>
+    </div>
+  </body>
+</html>

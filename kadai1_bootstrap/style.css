@@ -1,0 +1,68 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.col-sm-3 {
+  padding: 0;
+}
+
+.blue {
+  background: blue;
+  height: 200px;
+}
+
+.skyblue {
+  background: skyblue;
+  height: 400px;
+}
+
+.lightblue {
+  background: lightblue;
+  height: 100px;
+}
+
+.red {
+  background: red;
+  height: 300px;
+}
+
+.tomato {
+  background: tomato;
+  height: 100px;
+}
+
+.pink {
+  background: pink;
+  height: 300px;
+}
+
+.green {
+  background: green;
+  height: 200px;
+}
+
+.lime {
+  background: lime;
+  height: 300px;
+}
+
+.lightgreen {
+  background: lightgreen;
+  height: 200px;
+}
+
+.orange {
+  background: orange;
+  height: 100px;
+}
+
+.gold {
+  background: gold;
+  height: 400px;
+}
+
+.yellow {
+  background: yellow;
+  height: 200px;
+}

@@ -1,0 +1,148 @@
+@import url(sanitize.css);
+
+header,
+footer {
+  height: 100px;
+  background: gray;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+header {
+  margin-bottom: 10px;
+}
+footer {
+  margin-top: 10px;
+}
+
+.content {
+  max-width: 830px;
+  margin: 0 auto;
+}
+.content {
+  text-align: center;
+}
+.content:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+p {
+  margin: 0;
+}
+
+.column1,
+.column2,
+.column3,
+.column4 {
+  width: 200px;
+  float: left;
+  margin: 0 5px;
+}
+
+.column1 {
+  margin-left: 0;
+}
+
+.column4 {
+  margin-right: 0;
+}
+
+.blue,
+.red,
+.green,
+.orange,
+.skyblue,
+.lime,
+.tomato,
+.gold {
+  margin-bottom: 10px;
+}
+
+.blue {
+  background: blue;
+  height: 200px;
+  line-height: 200px;
+}
+
+.skyblue {
+  background: skyblue;
+  height: 400px;
+  line-height: 400px;
+}
+
+.lightblue {
+  background: lightblue;
+  height: 100px;
+  line-height: 100px;
+}
+
+.red {
+  background: red;
+  height: 300px;
+  line-height: 300px;
+}
+
+.tomato {
+  background: tomato;
+  height: 100px;
+  line-height: 100px;
+}
+
+.pink {
+  background: pink;
+  height: 300px;
+  line-height: 300px;
+}
+
+.green {
+  background: green;
+  height: 200px;
+  line-height: 200px;
+}
+
+.lime {
+  background: lime;
+  height: 300px;
+  line-height: 300px;
+}
+
+.lightgreen {
+  background: lightgreen;
+  height: 200px;
+  line-height: 200px;
+}
+
+.orange {
+  background: orange;
+  height: 100px;
+  line-height: 100px;
+}
+
+.gold {
+  background: gold;
+  height: 400px;
+  line-height: 400px;
+}
+
+.yellow {
+  background: yellow;
+  height: 200px;
+  line-height: 200px;
+}
+
+@media only screen and (max-width: 829px) {
+  .column1,
+  .column2,
+  .column3,
+  .column4 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .column2,
+  .column3,
+  .column4 {
+    margin-top: 10px;
+  }
+}
